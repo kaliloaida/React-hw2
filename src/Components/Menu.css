@@ -1,18 +1,59 @@
-body{
-    background-color: cadetblue;
+body {
+  background-color: cadetblue;
 }
-.Menu{
-    background-color: aquamarine;
-    border-radius: 20px;
-    width: 500px;
-    height: 500px;
-    margin-left: 500px;
-    margin-top: 100px;
-    padding-top: 25px;
-    padding-left: 30px;
-    font-size: large;
-    font-family:unset;
-    align-items: center;
-    justify-content:space-between;
+.Menu {
+  background-color: aquamarine;
+  border-radius: 20px;
+  width: 500px;
+  height: 500px;
+  margin-left: 500px;
+  margin-top: 100px;
+  padding-top: 25px;
+  padding-left: 30px;
+  font-size: large;
+  font-family: unset;
+  align-items: center;
+  justify-content: space-between;
+}
+.expense-date {
+  display: flex;
+  flex-direction: column;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid #ececec;
+  background-color: #2a2a2a;
+  color: white;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 27rem;
+}
+.expense-date__month {
+  font-size: 0.6rem;
+  font-weight: bold;
+}
 
+.expense-date__day {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.expense-date__year {
+  font-size: 0.6rem;
+}
+.mealsImg {
+  width: 170px;
+  height: 160px;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 30px;
+
+  flex-direction: row-reverse;
+}
+.menuInfo {
+  font-size: 20px;
+  width: 430px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bolder;
+  color: rgb(17, 28, 39);
 }
